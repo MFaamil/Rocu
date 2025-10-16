@@ -304,7 +304,7 @@ footer {
     text-decoration: none;
 }
 
--links {
+.social-links {
     display: flex;
     gap: 15px;
     margin-top: 20px;
