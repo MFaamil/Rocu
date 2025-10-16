@@ -66,10 +66,10 @@
                             <label for="membershipPlan">Membership Plan *</label>
                             <select id="membershipPlan" class="form-control" required>
                                 <option value="">Select a plan</option>
-                                <option value="basic">Basic - AED 199/month</option>
-                                <option value="premium">Premium - AED 349/month</option>
-                                <option value="family">Family - AED 599/month</option>
-                                <option value="student">Student - AED 179/month</option>
+                                <option value="basic">Basic - Eur 25/month</option>
+                                <option value="premium">Intermediate - Eur 35/month</option>
+                                <option value="family">Advanced - Eur 45/month</option>
+                                <option value="student">Elite - Eur 60/month</option>
                             </select>
                         </div>
 
@@ -187,17 +187,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        document.querySelector('.mobile-menu').addEventListener('click', function() {
-            document.querySelector('nav ul').classList.toggle('active');
-        });
-
-        document.getElementById('membershipForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your application! We will contact you within 24 hours to schedule your free trial class.');
-            this.reset();
-        });
-    </script>
 </body>
 </html>
