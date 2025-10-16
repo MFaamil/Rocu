@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join RoCu Martial Arts - Membership Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="rocu.png" alt="RoCu Martial Arts">
+                    <h1>RoCu Martial Arts</h1>
+                </a>
+                <div class="mobile-menu">☰</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="membership.html">Join Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Join Our Martial Arts Community</h1>
+                <p>Start your journey today and become part of the RoCu Martial Arts family</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="form-container">
+                    <h2 style="text-align: center; margin-bottom: 30px;">Membership Registration</h2>
+                    <form id="membershipForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="membershipPlan">Membership Plan *</label>
+                            <select id="membershipPlan" class="form-control" required>
+                                <option value="">Select a plan</option>
+                                <option value="basic">Basic - AED 199/month</option>
+                                <option value="premium">Premium - AED 349/month</option>
+                                <option value="family">Family - AED 599/month</option>
+                                <option value="student">Student - AED 179/month</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experienceLevel">Martial Arts Experience</label>
+                            <select id="experienceLevel" class="form-control">
+                                <option value="">Select experience level</option>
+                                <option value="beginner">Beginner (No experience)</option>
+                                <option value="intermediate">Intermediate (1-2 years)</option>
+                                <option value="advanced">Advanced (3+ years)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferredClasses">Preferred Classes</label>
+                            <select id="preferredClasses" class="form-control" multiple>
+                                <option value="karate">Karate</option>
+                                <option value="bjj">Brazilian Jiu-Jitsu</option>
+                                <option value="muaythai">Muay Thai</option>
+                                <option value="selfdefense">Self-Defense</option>
+                                <option value="fitness">Fitness Training</option>
+                                <option value="kids">Kids Programs</option>
+                            </select>
+                            <small>Hold Ctrl/Cmd to select multiple options</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emergencyContact">Emergency Contact</label>
+                            <input type="text" id="emergencyContact" class="form-control" placeholder="Name and phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="medicalInfo">Medical Information</label>
+                            <textarea id="medicalInfo" class="form-control" rows="3" placeholder="Any medical conditions, injuries, or allergies we should know about"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="goals">Training Goals</label>
+                            <textarea id="goals" class="form-control" rows="3" placeholder="What do you hope to achieve through martial arts training?"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" required>
+                                I agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a> *
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox">
+                                I would like to receive promotional emails and updates
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn" style="width: 100%;">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background: #f8f9fa;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What Happens Next?</h2>
+                </div>
+                <div class="facilities-grid">
+                    <div class="facility-card">
+                        <h3>1. Application Review</h3>
+                        <p>We'll review your application and contact you within 24 hours</p>
+                    </div>
+                    <div class="facility-card">
+                        <h3>2. Free Trial Class</h3>
+                        <p>Schedule your complimentary trial class to experience our training</p>
+                    </div>
+                    <div class="facility-card">
+                        <h3>3. Membership Setup</h3>
+                        <p>Complete your registration and set up your membership account</p>
+                    </div>
+                    <div class="facility-card">
+                        <h3>4. Start Training</h3>
+                        <p>Begin your martial arts journey with personalized guidance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>RoCu Martial Arts</h3>
+                    <p>Premier martial arts training facility in Sharjah.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p>📍 Al Khan, Sharjah, UAE</p>
+                    <p>📞 +971 6 123 4567</p>
+                    <p>✉️ info@rocumartialarts.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 RoCu Martial Arts. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+
+        document.getElementById('membershipForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your application! We will contact you within 24 hours to schedule your free trial class.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
